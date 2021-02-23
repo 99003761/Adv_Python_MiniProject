@@ -20,3 +20,4 @@ print(len(key1))
     # file_output.write(line)
 # file_output.close()
 file_input.close()
+
