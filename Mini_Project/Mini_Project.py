@@ -1,6 +1,19 @@
 import re
 
 
+def make_input_file(in_path):
+    file_input = open(in_path, "r")  # Input file handler
+    out_path = "new_input_file.txt"
+    file_output = open(out_path, "w")  # Output file Handler
+    count = 1
+    for line in file_input:  # for loop for line count and line adding
+        file_output.write(str(count) + '\t' + line)  # adding line numbers
+        count += 1  # line count
+    file_output.close()  # closing file
+    file_input.close()
+    return out_path
+
+
 def read_keys(n_key):
     keys = []  # creating a List to store Keys
 
@@ -8,6 +21,23 @@ def read_keys(n_key):
         keys.append(input("Enter KeyWords{}: ".format(j+1)))  # appending  Keys
 
     return keys
+
+
+def search_with_line(key, file_paths):
+    count = 0
+    keywords = []
+    lines = 0
+    pattern = re.compile(key, re.I)
+
+    with open(file_paths, "rt") as file_lines:
+        for line in file_lines:
+            lines += 1
+            if pattern.search(line) != None:
+                keywords.append((lines, line.rstrip('\n')))
+        for keys in keywords:
+            count += 1
+            with open("{}.txt".format(key), 'a') as file_keys:
+                file_keys.writelines(keys[1] + '\n')
 
 
 def remove_lines(in_file_path):
@@ -64,11 +94,30 @@ def search_keyword(keyword, in_file):
     print("{} found {} times in the given Files".format(keyword, match_found))
     print()
 
+def count_keys(KEY,PATH):
+    count = 0
+    keywords = []
+    lines = 0
+    pattern = re.compile(KEY, re.I)
+
+    with open(PATH, "rt") as file_lines:
+        for line in file_lines:
+            count += len(re.findall(pattern,line))
+    return count
+
+
+
+file_path = "input.txt"
+new_file = make_input_file(file_path)
 
 N_key = int(input("Enter No.Of Key:"))
-file_path = "input.txt"
+
 
 KeyWords = read_keys(N_key)  # keywords list
 
 for i in range(N_key):
-    search_keyword(KeyWords[i], file_path)
+    #search_keyword(KeyWords[i], file_path)
+    search_with_line(KeyWords[i], new_file)
+    no_of_keys = count_keys(KeyWords[i], "{}.txt".format(KeyWords[i]))
+    print("'{}' found '{}' times in Given File".format(KeyWords[i],no_of_keys))
+
