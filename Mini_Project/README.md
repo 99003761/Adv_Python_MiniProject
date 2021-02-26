@@ -3,17 +3,17 @@
 
 ## Instructions
  # Input
-Step 1 : Run the Program,
+## Step 1 : Run the Program,
 
-Step 2 : Enter the Number of KeyS to Be Searched 
+## Step 2 : Enter the Number of KeyS to Be Searched 
 
-Step 3 : Enter the Keywords Individually one by one
+## Step 3 : Enter the Keywords Individually one by one
 
 
 # Output
 
-"Keyword " found  N times in Given file
+## "Keyword " found  N times in Given file
 
-All Text files are created with Name of Keyword.txt in the same directory 
+## All Text files are created with Name of Keyword.txt in the same directory 
 
-## Note : Each Keyword.txt file contain Line Number with full line matched with Keyword within the Original Input File
+ **Note : Each Keyword.txt file contain Line Number with full line matched with Keyword within the Original Input File
