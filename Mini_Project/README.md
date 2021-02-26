@@ -14,6 +14,6 @@ Step 3 : Enter the Keywords Individually one by one
 
 "Keyword " found  N times in Given file
 
-All Text files are created with Name of Keyword.txt
+All Text files are created with Name of Keyword.txt in the same directory 
 
 ## Note : Each Keyword.txt file contain Line Number with full line matched with Keyword with  in the Original Input File
