@@ -1,15 +1,13 @@
 # Advanced Python Mini Project
 ## Problem Statement: Read a text file and Search for User input keywords and create text file for each Keyword  
-## PS No: 99003761 
-## Name: Santosh Kariyavar
 
 ## Instructions
- ## Input
+ # Input
 Step 1 : Run the Program,
 Step 2 : Enter the Number of KeyS to Be Searched 
 Step 3 : Enter the Keywords Individually one by one
 
-## Output
+# Output
 
 "Keyword " found  N times in Given file
 
