@@ -1,6 +1,6 @@
 """
-Description: This file Demonstrate the  searching  Keywords of user inputs in the 
-Given Text file, and Creating Individual text file for each Keywords.
+Description: This file Demonstrate the searching Keywords of user inputs in 
+the Given Text file, and Creating Individual text file for each Keywords.
 Author Details
 Ps No           : 99003761
 Name            : Santosh Kariyavar
