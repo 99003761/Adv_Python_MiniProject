@@ -4,7 +4,7 @@
 
 # Instructions
  ## *Input*
-## Step 1 : Run the Program,
+## Step 1 : Run the MiniProject.py file,
 
 ## Step 2 : Enter the Number of KeyS to Be Searched 
 
