@@ -16,4 +16,4 @@ Step 3 : Enter the Keywords Individually one by one
 
 All Text files are created with Name of Keyword.txt in the same directory 
 
-## Note : Each Keyword.txt file contain Line Number with full line matched with Keyword with  in the Original Input File
+## Note : Each Keyword.txt file contain Line Number with full line matched with Keyword within the Original Input File
