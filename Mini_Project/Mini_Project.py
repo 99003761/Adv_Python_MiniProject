@@ -1,8 +1,11 @@
 """
 Description: This file Demonstrate the  searching  Keywords of user inputs in the Given Text file,
 and Creating Individual text file for each Keywords.
-Author : Ps No: 99003761 Name: Santosh Kariyavar
-Contact: 8951096674
+Author Details
+Ps No           : 99003761
+Name            : Santosh Kariyavar
+E-mail          : santosh.kariyavar@ltts.com
+Contact         : 8951096674
 Date Of creation: 26/02/2021
 """
 
@@ -83,4 +86,7 @@ for i in range(obj1.n_key):
 
     obj2.search_with_line(obj1.keys[i], obj1.new_file)
     no_of_keys = obj1.count_keys(obj1.keys[i], "{}.txt".format(obj1.keys[i]))
-    print("'{}' found {} times in Given File".format(obj1.keys[i], no_of_keys))
+    text = "'{}' found {} times in Given File".format(obj1.keys[i], no_of_keys)
+    with open("{}.txt".format(obj1.keys[i]), "a") as file:
+        file.write('\n'+text)
+    print(text)
