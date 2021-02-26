@@ -4,11 +4,11 @@
 
 # Instructions
  ## *Input*
-## Step 1 : Run the MiniProject.py file,
+## Step 1 : Run the "Mini_Project.py" file.
 
-## Step 2 : Enter the Number of KeyS to Be Searched 
+## Step 2 : Enter the Number of KeyS to Be Searched. 
 
-## Step 3 : Enter the Keywords Individually one by one
+## Step 3 : Enter the Keywords one by one.
 
 
 # *Output*
