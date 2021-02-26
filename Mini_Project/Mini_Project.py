@@ -1,5 +1,6 @@
 """
-Description: This file Demonstrate the  file operation and OPPs Concepts using Python 3.9.1 version
+Description: This file Demonstrate the  searching  Keywords of user inputs in the Given Text file,
+and Creating Individual text file for each Keywords.
 Author : Ps No: 99003761 Name: Santosh Kariyavar
 Contact: 8951096674
 Date Of creation: 26/02/2021
