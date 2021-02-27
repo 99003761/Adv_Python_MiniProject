@@ -4,7 +4,7 @@
 
 # Instructions
  ## *Input*
-## Step 1 : Run the "Mini_Project.py" file. (Pycharm : Working, VS code : Input.txt file Not Reading)
+## Step 1 : Run the "Mini_Project.py" file. 
 
 ## Step 2 : Enter the Number of KeyS to Be Searched. 
 
